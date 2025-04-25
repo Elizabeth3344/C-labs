@@ -1,3 +1,5 @@
+#!/bin/bash
+
 git checkout stg
 git merge dev
 timetag=$(date '+%H-%M-%S')
