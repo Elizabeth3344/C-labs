@@ -21,7 +21,7 @@ int main()
     }
 
     // освобождаем ранее занятую память
-    free(steps);
+    delete steps;
 
     return 0;
 }
